@@ -230,9 +230,11 @@ function finishGame(){
    totalScore.innerHTML = score
    timelvl.innerHTML = lvlSeconds
    
-   whatsApp.href=`https://train-game-one.vercel.app/ = Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://train-game-one.vercel.app/`
-   telegram.href = `"https://t.me/share/url?url=https%3A%2F%2Ftrain-game-one.vercel.app%2F" = Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://train-game-one.vercel.app/`
-   facebook.href=`https://train-game-one.vercel.app/ =Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://train-game-one.vercel.app/`
+   whatsApp.href = `https://api.whatsapp.com/send?text=Побей%20мой%20рекорд%20-%20${score}%20очков%20за%20${lvlSeconds}%20секунд.%20В%20мегаигре%20на%20реакцию%20${encodeURIComponent('https://train-game-one.vercel.app/')}`;
+   telegram.href = `https://t.me/share/url?url=${encodeURIComponent('https://train-game-one.vercel.app/')}&text=Побей%20мой%20рекорд%20-%20${score}%20очков%20за%20${lvlSeconds}%20секунд.%20В%20мегаигре%20на%20реакцию%20${encodeURIComponent('https://train-game-one.vercel.app/')}`;
+   facebook.href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://train-game-one.vercel.app/')}&quote=Побей%20мой%20рекорд%20-%20${score}%20очков%20за%20${lvlSeconds}%20секунд.%20В%20мегаигре%20на%20реакцию%20${encodeURIComponent('https://train-game-one.vercel.app/')}`;
+
+ 
 
 }
 function restartGame(){
