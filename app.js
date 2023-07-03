@@ -230,9 +230,9 @@ function finishGame(){
    totalScore.innerHTML = score
    timelvl.innerHTML = lvlSeconds
    
-   whatsApp.href=`https://train-game-one.vercel.app/ = Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://train-game-one.vercel.app/`
-   telegram.href=`https://train-game-one.vercel.app/ =Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакциюhttps://train-game-one.vercel.app/`
-   facebook.href=`https://train-game-one.vercel.app/ =Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://train-game-one.vercel.app/`
+   whatsApp.href=`https://api.whatsapp.com/send?text = Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://train-game-one.vercel.app/`
+   telegram.href=`https://t.me/share/url?url=https%3A%2F%2Fwebstep.kz%2Ftest%2F1&text =Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://train-game-one.vercel.app/`
+   facebook.href=`https://www.facebook.com/sharer.php?src=sp&u=https%3A%2F%2Fwebstep.kz%2Ftest%2F1%2F&title =Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://train-game-one.vercel.app/`
 
 }
 function restartGame(){
