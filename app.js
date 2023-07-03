@@ -230,9 +230,9 @@ function finishGame(){
    totalScore.innerHTML = score
    timelvl.innerHTML = lvlSeconds
    
-   whatsApp.href=`https://merciless-warrior.github.io/Train-Game/ = Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию тут https://merciless-warrior.github.io/Train-Game/ `
-   telegram.href=`https://merciless-warrior.github.io/Train-Game/ =Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://merciless-warrior.github.io/Train-Game/ `
-   facebook.href=`https://merciless-warrior.github.io/Train-Game/ =Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://merciless-warrior.github.io/Train-Game/ `
+   whatsApp.href=`https://train-game-one.vercel.app/ = Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://train-game-one.vercel.app/`
+   telegram.href=`https://train-game-one.vercel.app/ =Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакциюhttps://train-game-one.vercel.app/`
+   facebook.href=`https://train-game-one.vercel.app/ =Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://train-game-one.vercel.app/`
 
 }
 function restartGame(){
