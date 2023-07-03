@@ -230,9 +230,9 @@ function finishGame(){
    totalScore.innerHTML = score
    timelvl.innerHTML = lvlSeconds
    
-   whatsApp.href=`https://api.whatsapp.com/send?text= Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https%3A%2F%2Fwebstep.kz%2Ftest%2F1`
-   telegram.href=`https://t.me/share/url?url=https%3A%2F%2Fwebstep.kz%2Ftest%2F1&text=Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https%3A%2F%2Fwebstep.kz%2Ftest%2F1`
-   facebook.href=`https://www.facebook.com/sharer.php?src=sp&u=https%3A%2F%2Fwebstep.kz%2Ftest%2F1%2F&title=Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https%3A%2F%2Fwebstep.kz%2Ftest%2F1`
+   whatsApp.href=`https://merciless-warrior.github.io/Train-Game/= Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://merciless-warrior.github.io/Train-Game/`
+   telegram.href=`https://merciless-warrior.github.io/Train-Game/=Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://merciless-warrior.github.io/Train-Game/`
+   facebook.href=`https://merciless-warrior.github.io/Train-Game/=Побей мой рекорд - ${score} очков за ${lvlSeconds} секунд. В мегаигре на реакцию https://merciless-warrior.github.io/Train-Game/`
 
 }
 function restartGame(){
